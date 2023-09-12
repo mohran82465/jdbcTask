@@ -22,7 +22,7 @@ public class Main {
             Scanner scanner =new Scanner(System.in);
             int n = scanner.nextInt();
 
-            EmployeeServiceImpl service = new EmployeeServiceImpl();
+            EmployeeService service = new EmployeeServiceImpl();
             if(n==1)
             {
                 System.out.println("The Employees List : ");
